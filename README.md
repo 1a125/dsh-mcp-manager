@@ -11,19 +11,13 @@ DSH（DeepSeek Harness）全局 MCP 管理器：在 **设置弹窗 →「MCP 管
 
 ## 安装
 
-**方式一：GitHub 源直接安装（无需发布 npm，推荐）**
+**方式一：GitHub 源直接安装（推荐）**
 
 ```sh
 dsh plugin --profile web add "github:1a125/dsh-mcp-manager#main"
 ```
 
-**方式二：npm（发布后）**
-
-```sh
-dsh plugin --profile web add dsh-mcp-manager
-```
-
-**方式三：手动**
+**方式二：手动**
 
 把 `dsh-mcp-manager` 放入 `~/.dsh/profiles/web/node_modules/`，并在 `~/.dsh/profiles/web/cordis.patch.yml` 追加：
 
