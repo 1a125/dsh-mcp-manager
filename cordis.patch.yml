@@ -1,0 +1,5 @@
+# dsh-mcp-manager bundle patch
+# `dsh plugin --profile web add dsh-mcp-manager` 时由官方 CLI 识别本声明并挂载。
+- insert:
+    - id: mcp-manager
+      name: 'dsh-mcp-manager'
